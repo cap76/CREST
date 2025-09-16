@@ -16,4 +16,6 @@ It has the following dimensitonality reductions:
 2) harmony and harmumap are batch harmonised alignment of the CREST data only using harmony
 3) pca, umap, are batch alignment of the CREST data only using Seurats integrate functions.
 
+The file CREST_epithelia.rds (~1.5GB) is a Seurat object of the CREST epithelial cells aligned to a reference human endometrial dataset. With the following metadata (EpithelialAno = cell anotation, Idents = dataset/stage) 
+
 
