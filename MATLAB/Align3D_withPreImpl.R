@@ -27,7 +27,8 @@ my_cols <- c('EmDisc_CS5'='#0c9cf5','EmDisc_CS6'='#0767DA','EmDisc_CS7'='#0233BF
              'Amspheroids'='#877bd6','LN no MEF'='#1A0873', 'Epi BMP4'='#5F54C7', 'Epispheroids'='#0c9cf5', 'LN MEF'='#0767DA', '24h post'='#0233BF','PGC'='#BFBF04',
              'PGCLC_ExMes'='#e6c800', 'PGCLC_Am'='#877bd6', 'PGCL'='#E6E600','PGC'='#E6E600','PLAXA'='#cfecff')
 
-marmoset <- readRDS("/Users/christopherpenfold/Desktop/Data/MatteoMarmosetMapping4/AlignMatteo_withMarmosetwCynoMarmHumanSS.rds")
+#NB a processed dataset has been uploaded to https://drive.google.com/file/d/1ZopPHsXsp6YcRO2k5b--V9ZJ3J8ezJxi/view?usp=share_link
+marmoset <- readRDS("CREST_aligned_to_human_rhesus_marmoset.rds")
 
 Dataset <- as.character(marmoset$Dataset)
 Dataset[which(Dataset%in%c("Batch1","10X Ours","Batch3","Batch6","Batch7","Batch8"))] <- "InVitro"
