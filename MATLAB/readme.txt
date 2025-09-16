@@ -7,3 +7,5 @@ ProjectData.m
 Function for MapHuman2Marmoset.m that does the spatial mapping
 
 Calculated indexes for SNNs for each cells (and a control permited set) are saved in the Files folder (C1_set1_withPreImpl_byCl.csv, C1perm_set1_withPreImpl_byCl.csv, S1_set1_all_withPreImpl_byCl.csv). These can be generated from an aligned Seurat object using the Align3D_withPreImpl.R script. 
+
+Additional processed intermediate datasets are available from: https://drive.google.com/drive/folders/1uV__ZgSRPSG03T-9CCFQggu6I-RVPOcS?usp=share_link
