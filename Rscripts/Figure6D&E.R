@@ -59,5 +59,5 @@ d <- d[OrderList,c("CTB","STB","EVT","cCTb","cSTB","cEVT","CTb","STb","Evt")]
 pm6<-pheatmap(d1, color =  redblue1(50), fontsize = 4,  border_color = NA,  cluster_rows=FALSE, cluster_cols=FALSE,  filename = paste(saveext,"/DimRed/Figure6E_panel1",".pdf",sep="") ,width=2,height=10)
 pm6<-pheatmap(d2, color =  redblue1(50), fontsize = 4,  border_color = NA,  cluster_rows=FALSE, cluster_cols=FALSE,  filename = paste(saveext,"/DimRed/Figure6E_panel2",".pdf",sep="") ,width=2,height=10)
 pm6<-pheatmap(d3, color =  redblue1(50), fontsize = 4,  border_color = NA,  cluster_rows=FALSE, cluster_cols=FALSE,  filename = paste(saveext,"/DimRed/Figure6E_panel3",".pdf",sep="") ,width=2,height=10)
-pm6<-pheatmap(d, color =  redblue1(50), fontsize = 4,  border_color = NA,  cluster_rows=FALSE, cluster_cols=FALSE,  filename = paste(saveext,"/DimRed/Figure6E_panel",".pdf",sep="") ,width=4,height=10)
+pm6<-pheatmap(d, color =  redblue1(50), fontsize = 4,  border_color = NA,  cluster_rows=FALSE, cluster_cols=FALSE,  filename = paste(saveext,"/DimRed/Figure6E",".pdf",sep="") ,width=4,height=10)
 
