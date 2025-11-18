@@ -23,5 +23,7 @@ The file CREST_epithelia.rds (~1.5GB; https://drive.google.com/file/d/1VphkBKRnW
 
 The file CREST_stroma.rds (https://drive.google.com/file/d/1BiAa8r-tcEeiEEe0FRwf3bqLOWGYlY7l/view?usp=share_link) contains the aligned stromal cells from CREST to an endometrial reference (Idents = anotation, ID3 = batch).  
 
+Finally, processed data for the embryonic portion of CREST cultures aligned to embryonic lineages in various other species can be found in the file CREST_aligned_to_human_rhesus_marmoset.rds (https://drive.google.com/file/d/1ZopPHsXsp6YcRO2k5b--V9ZJ3J8ezJxi/view?usp=share_link) which allows replotting of SF5A-D. This file can be downloaded manually and added to the Data folder or usign gdown
 
-Finally, the CREST_aligned_to_human_rhesus_marmoset.rds (https://drive.google.com/file/d/1ZopPHsXsp6YcRO2k5b--V9ZJ3J8ezJxi/view?usp=share_link) contains an alignment of CREST embryonic lineages to human, rhesus, and marmoset reference datasets. 
+gdown --id '1ZopPHsXsp6YcRO2k5b--V9ZJ3J8ezJxi'
+
