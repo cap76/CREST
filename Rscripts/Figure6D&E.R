@@ -9,13 +9,13 @@ library(stringr)
 
 set.seed(1) 
 
-saveext = "~/Desktop/Data/Endometrial/InVitro/Matteo/"
+saveext = "./"
 dir.create(saveext)
 dir.create(paste(saveext,"/Markers/",sep=""))
 dir.create(paste(saveext,"/DimRed/",sep=""))
 
 #Get the dataset
-D <- readRDS("/Users/christopherpenfold/Downloads/CREST_trophoblast_aligned.rds")
+D <- readRDS("Data/CREST_trophoblast_aligned.rds")
 
 #Colours for plotting
 cols<-c('CTB'='#e2c120',
