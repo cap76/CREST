@@ -9,13 +9,13 @@ library(stringr)
 
 set.seed(1) 
 
-saveext = "~/Desktop/Data/Endometrial/InVitro/Matteo/"
+saveext = "./CREST/"
 dir.create(saveext)
 dir.create(paste(saveext,"/Markers/",sep=""))
 dir.create(paste(saveext,"/DimRed/",sep=""))
 
 #Get the dataset
-D <- readRDS("/Users/christopherpenfold/Downloads/CREST_anotated.rds")
+D <- readRDS("Data/CREST_anotated.rds")
 
 #This object contains more fine anotations, lets set to the broad anotations for Figure 6
 Idents(D,cells=WhichCells(D,idents=c("Stroma_decid","Stroma_prolif"))) <- "Stroma"
