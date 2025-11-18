@@ -9,13 +9,13 @@ library(stringr)
 
 set.seed(1) 
 
-saveext = "~/Desktop/Data/Endometrial/InVitro/Matteo/"
-dir.create(saveext)
+saveext = "./"
+.dir.create(saveext)
 dir.create(paste(saveext,"/Markers/",sep=""))
 dir.create(paste(saveext,"/DimRed/",sep=""))
 
 #Get the dataset
-D <- readRDS("/Users/christopherpenfold/Downloads/CREST_aligned_to_human_rhesus_marmoset.rds")
+D <- readRDS("./Data/CREST_aligned_to_human_rhesus_marmoset.rds")
 D$FineAno <- Idents(D)
 #This contains fine anotation labels, so lets combined some labels for a broader anotation
 Idents(D,cells=WhichCells(D,idents=c("CTB","eCTB","STB","EVT","Tb_CS7","Tb_CS6","Tb_CS3","Tb_CS4","Tb_CS5"))) <- "Trophoblast"
