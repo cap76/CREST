@@ -56,7 +56,7 @@ ggsave(filename=paste(saveext,"/DimRed/SF5_H_pannel3.pdf",sep=""),width = 10, he
 p1<-FeaturePlot(Dsub, features = "Luminal1", pt.size = 4, reduction = "pca",  label = TRUE, repel = TRUE, dims = c(1,4)) 
 ggsave(filename=paste(saveext,"/DimRed/SF5_H_pannel4.pdf",sep=""),width = 10, height = 8,p1,limitsize = FALSE)
 
-
+#Checked up until here. Needs editing for later plots
 #Find DE genes ExMes vs others
 Idents(Dsub) <- Dsub$EpithelialAno
 Mrk1 <- FindMarkers(Dsub, ident.2 = c("Luminal"), ident.1 = c("Glandular"), only.pos=FALSE )
