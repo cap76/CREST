@@ -197,7 +197,7 @@ ggsave(filename=paste(saveext,"/DimRed/SF5C_pannel1.pdf",sep=""),width = 10, hei
 p1<-FeaturePlot(onlyOurs, features = "SYSDelta4", pt.size = 4, reduction = "pca", label = TRUE, cols =  c("blue", "red"), min.cutoff = -0.05, max.cutoff = 0.05, repel = TRUE) 
 ggsave(filename=paste(saveext,"/DimRed/SF5C_pannel2.pdf",sep=""),width = 10, height = 8,p1,limitsize = FALSE)
 
-
+#Checked up until here. This needs editing.
 #Now do some MA plots
 Idents(onlyOurs) <- onlyOurs$FineAno
 
